@@ -1,5 +1,4 @@
 import React from 'react';
-import AppBarItem from './AppBarItem';
 
 
 export default class extends React.Component {
@@ -10,31 +9,20 @@ export default class extends React.Component {
           border: solid #ccc 1px;
           border-radius: 10px;
           background-color: #fff;
-
         }
         .topCard-header {
           border-top-left-radius: 10px;
           border-top-right-radius: 10px;
-          background-color: blue;
+          background-color: #058cec;
           color: white;
           padding: 10px;
-        }
-        .topCard-footer{
-
-        }
-
-        .topCard-content {
-          padding: 10px;
-
+          margin-bottom: -18px;
         }`}
       </style>
       <div className="topCard-container">
-        <div className="topCard-header"> Content Promotion Services</div>
-        <div className="topCard-content">
-          <div className="topCard-header"> @MinnowBooster</div>
-          <span className="topCard-content">content  content content   content content</span>
+        <div className="topCard-header">
+          {this.props.children}
         </div>
-        <div className="topCard-footer"><hr /></div>
       </div>
     </div>
     );

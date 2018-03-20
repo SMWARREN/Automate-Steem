@@ -15,7 +15,6 @@ export default class extends React.Component {
         @import url('https://fonts.googleapis.com/css?family=Montserrat');
         body {
           background-color: #f2f2f2;
-
         }
       * {
         font-family: 'Montserrat', sans-serif;
