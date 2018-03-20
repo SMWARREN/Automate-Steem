@@ -1,6 +1,6 @@
 # 3 Day Steem Challenge
 
-- [ ] Design UI For The Blog, and Bot & User Pages 3/19
+- [ ] Design UI For The Blog, and Bot & User Pages 3/19 - Failed
 - [ ] Develop Microservice For Blog (Wordpress), Auth Service, DB Service 3/20
 - [ ] Polish App 3/21
 
